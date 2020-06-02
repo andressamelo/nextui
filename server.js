@@ -12,12 +12,10 @@ app.prepare()
     const server = express();
 
     server.get('/user/:name',(req,res) => {
-
         app.render(req,res,'/user', {name:req.param.name})
     })
     
     server.get('/github/:user',(req,res) => {
-
         app.render(req,res,'/github', {user:req.param.user})
     })
 
@@ -25,7 +23,7 @@ app.prepare()
         return handle(req,res);
     })
 
-    server.listen(3000, err => {
+    server.listen(process.env.PORT || 3000, err => {
         if(err) throw err;''
 
         console.log('Ready on http://localhost:3000');
