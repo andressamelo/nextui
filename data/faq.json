@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "question": "O que é o FITPLAY?",
+    "answer": "É uma plataforma digital que reúne os melhores treinos online para você fazer quando e onde quiser. Oferecemos programas completos para emagrecimento, fortalecimento, yoga e muitos mais. Com uma única adesão, você tem acesso ilimitado a todos os programas de exercícios pra você fazer em casa"
+  },
+  {
+    "id": 2,
+    "question": "Como funcionam os 15 dias grátis?",
+    "answer" : "A cobrança só será feita após os 15 dias de teste grátis. Para começar, basta fazer o cadastro inicial, colocar as informações de pagamento e ter acesso ilimitado a todo o conteúdo. Caso desista de mudar sua rotina de exercícios com o FITPLAY antes do 15º dia, basta enviar um e-mail para faleconosco@fitplayapp.com.br ou alterar a adesão dentro do aplicativo (disponível para iOS e Android)"
+  },
+  {
+    "id": 3,
+    "question": "Como tenho acesso aos treinos?",
+    "answer" : "É só fazer o cadastro, optar por um tipo de acesso e começar a usar (agora, você ainda ganha 15 dias grátis). Para fazer o login, acesse o site ou o aplicativo do FITPLAY (clique em “ENTRAR” no topo da página) e escolha o Programa de Treinamento que mais combina com você. Nosso aplicativo está disponível para Android e iOS."
+  },
+  {
+    "id": 4,
+    "question": "Quantas vezes posso assistir a cada treino?",
+    "answer" : "Você tem acesso completo e ilimitado a todos os programas de treinamento. Ou seja, pode repeti-los quantas vezes quiser, enquanto seu acesso estiver ativo"
+  },
+  {
+    "id": 5,
+    "question": "Como sei qual treino escolher?",
+    "answer" : "Ao acessar o FITPLAY, você pode selecionar o programa de treino de acordo com o seu objetivo e preferência. Depois, é só seguir o calendário que mostra qual videoaula ver em cada dia para que você alcance seus objetivos de 4 a 8 semanas (dependendo do programa)"
+  },
+  {
+    "id": 6,
+    "question": "Sou iniciante, vou conseguir fazer os exercícios?",
+    "answer" : "Com certeza! Em todos os treinos, os professores explicam como adaptar os exercícios para iniciantes e avançados. Também temos treinos exclusivos para iniciantes, como Saia do Sofá, com Samir Goulart."
+  },
+  {
+    "id": 7,
+    "question": "Quais as assinaturas disponíveis?",
+    "answer" : "Você pode optar pelo acesso anual por R$ 14,90 por mês ou o mensal por R$ 29,90. Em ambos, você também ganha 15 dias grátis. Esses são valores promocionais de lançamento do FITPLAY. Aproveite!"
+  },
+  {
+    "id": 9,
+    "question": "Como cancelar?",
+    "answer" : "Ao solicitar o cancelamento, você continua com acesso à plataforma até o fim do período contratado, porém, a renovação não será refeita. Para isso, basta acessar o aplicativo e clicar em ALTERAR PLANO ou enviar um e-mail para faleconosco@fitplayapp.com.br."
+  },
+  {
+    "id": 10,
+    "question": "Como assisto aos treinos pela minha TV?",
+    "answer" : "Caso tenha Smart TV ou um dispositivo de projeção de transmissão, como Chromecast ou Apple TV, é só usar o mesmo WiFi para assistir aos treinos na telona. Senão, você pode conectar seu computador com a tv pelo cabo HDMI."
+  },
+  {
+    "id": 11,
+    "question": "Como solicito uma nova senha?",
+    "answer" : "Acesse o FITPLAY pelo site ou aplicativo, clique em PERFIL e, em seguida, em CONFIGURAÇÕES. Aí, é só selecionar ALTERAR SENHA. Você também pode clicar na opção ESQUECI MINHA SENHA."
+  },
+  {
+    "id": 12,
+    "question": "Como troco minha adesão?",
+    "answer" : "Se você quiser fazer um upgrade da sua adesão mensal para a anual, basta entrar no FITPLAY pelo site ou aplicativo, clicar em PERFIL e, em seguida, em CONFIGURAÇÕES. Aí, é só selecionar ALTERAR PLANO. A escolha é definitiva e não dá opção de retorno."
+  }
+]

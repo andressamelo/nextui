@@ -15,8 +15,8 @@ app.prepare()
         app.render(req,res,'/user', {name:req.param.name})
     })
     
-    server.get('/github/:user',(req,res) => {
-        app.render(req,res,'/github', {user:req.param.user})
+    server.get('/faq/:user',(req,res) => {
+        app.render(req,res,'/faq', {user:req.param.user})
     })
 
     server.get('*',(req,res) => {

@@ -2,15 +2,15 @@ import React from 'react'
 import fetch from 'isomorphic-unfetch'
 
 
-  function About({ data }) {
+function Faq({ data }) {
     return (
-      <div>
+    <div>
         <ul>
             {data.map((item) => (
             <li key={item.id}>{item.question}{item.answer}</li>
             ))}
         </ul>        
-      </div>
+    </div>
 
     )
   }
@@ -25,5 +25,5 @@ import fetch from 'isomorphic-unfetch'
       },
     }
   }
-
-  export default About
+  
+export default Faq
