@@ -7,7 +7,7 @@ import fetch from 'isomorphic-unfetch'
       <div>
         <ul>
             {data.map((item) => (
-            <li key={item.id}>{item.question}{item.answer}</li>
+            <li key={item.id}>{item.name}{item.full_name}</li>
             ))}
         </ul>        
       </div>
@@ -16,7 +16,7 @@ import fetch from 'isomorphic-unfetch'
   }
   
   export async function getStaticProps() {
-    const res = await fetch('https://fitplayapp.s3.amazonaws.com/production/data/faq.json')
+    const res = await fetch('https://api.github.com/users/andressamelo/repos')
     const data = await res.json()
   
     return {
