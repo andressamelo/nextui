@@ -1,20 +1,20 @@
-import Layout from '../components/layouts/layout'
-import About from './about'
+import React from "react";
+import Link from "next/link";
+import Faq from "../components/Faq";
+import withFaq from "../components/withFaq";
 
-import React, {Component} from 'react'
+const Home = props => {
+  return (
+    <>
+      This is the Home Page
+      
+      <Faq {...props} />
 
-export default class App extends Component {
-    constructor(props) {
-        super(props)
-    }
+      <Link href="/layout">
+        <a>Go to Layout Page</a>
+      </Link>
+    </>
+  );
+};
 
-    render() {
-        return(
-            <Layout>
-                <h1>I am Home Page</h1>
-                <About {...this.props} {...this.state} />           
-            </Layout>
-
-        )
-    }
-}
+export default withFaq(Home);
