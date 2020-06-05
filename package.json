@@ -19,6 +19,8 @@
     "isomorphic-unfetch": "^3.0.0",
     "next": "^9.4.4",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-player": "^2.1.1",
+    "reactstrap": "^8.4.1"
   }
 }
